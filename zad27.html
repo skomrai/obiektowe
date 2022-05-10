@@ -1,25 +1,25 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">    
 <script type="text/javascript">
-var wazon = {
-materiaÅ‚: 'Porcelanowy',
-rozmiar: 'DuÅ¼y',
-kolor: 'BiaÅ‚y',
-wyswietlsajnog: function ()
+var pociag = {
+kolor: 'niebieski',
+wagony: '4',
+miejsca: '134',
+pociag_wyswietl_sko: function ()
 {
- document.write(this.materiaÅ‚ + ' ' + this.rozmiar + ' ' + this.kolor)
+document.write(this.kolor + ' ' + this.wagony+' '+ this.miejsca)
 }
+
+
 }
-wazon.wyswietlsajnog();
-wazon.cena=99;
-wazon.pokazsajnog=function() {alert('Cena: ' + this.cena + 'zÅ‚')}
-wazon.pokazsajnog()
+pociag.pociag_wyswietl_sko();
+pociag.rocznik='2013';
+pociag.wypisz_sko=function() {alert('rocznik: ' + this.rocznik + 'r')}
+pociag.wypisz_sko();
 </script>
 </head>
 <body>
 <br>
- programowanie obiektowe 
+programowanie obiektowe
 </body>
-</html>
+</html

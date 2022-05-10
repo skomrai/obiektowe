@@ -1,19 +1,56 @@
 <html>
 <head>
-<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
-</head>
-<body>
-<table width=95% border="1" align="center">
- <tr>
- <td width=18% align=center>
- <a href="zad24.html" target="strony"> zadanie 24</a>
- <br>
- <a href="zad25.html" target="strony">zadanie 25 </a> 
- <br>
- <a href="zad26.html" target="strony">zadanie 26 </a> 
- <br>
- <a href="zad27.html" target="strony"> zadanie 27 </a>
+<title>Przykład nr 1 ? </title>
+<script language="JavaScript">
+function WinOpen_Skomra()
+{
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+}
+
+    function Zad24_Skomra()
+    {
+  window.open("zad24.html","okienko","toolbar=no,menubar=no,directories=no,height=200,width=620,top=650,left=150");
+    }
+    
+    function Zad25_Skomra()
+    {
+  window.open("zad25.html","okienko","toolbar=no,menubar=no,directories=no,height=200,width=620,top=650,left=150");
+    }
+    
+    function zad26_Skomra() 
+    { 
+   window.open("zad26.html", "zad26", "toolbar=no, menubar=no, directories=no");   
+    } 
+   function zad27_Skomra()
+    {
+     window.open("zad27.html", "zad8", "toolbar=no, menubar=no, directories=no");   
+    
    
-</table>
-</body>
+</script>
+
+<style> 
+body {size: 20px; font-weight: bolder; background-color: beige; color: black; }
+
+p {size: 2cm; font-weight: bolder; }
+
+</style>
+
+  </head>
+  
+<body>
+<p><h1> Skomra <h1></p>
+  <form> <br>
+  <input type="button" name="przycisk" value="z1" onclick="WinOpen_Skomra(' ')">
+  <input type="button" name="zadanie2" value="z2" onclick="Zad24_Skomra(' ')">
+  <br>
+  <input type="button" name="przycisk3" value="Skomra-z25" onclick="Zad25_Skomra(' ')">
+  <input type="button" name="przycisk4" value="Skomra-z26" onclick="zad26_Skomra(' ')">
+  <input type="button" name="przycisk5" value="Skomra-z27" onclick="zad27_Skomra(' ')">
+   
+
+  </form>
+
+    
+    
+    </body>
 </html>
